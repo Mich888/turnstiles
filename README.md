@@ -1,4 +1,4 @@
-Motivation
+## Motivation
 
 pthread_mutex_t and std::mutex take up 40 bytes of memory. You could imagine a situation, where there are lots of mutexes and, hence, every byte counts.
 
